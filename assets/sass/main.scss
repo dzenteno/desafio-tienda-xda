@@ -7,10 +7,13 @@
 @import "base/base";
 @import "base/reset";
 @import "base/typography";
+
 // Layout
+@import "layout/main";
 
 // Components
 @import "components/navigation";
+@import "components/buttons";
 // Pages
 
 // Themes

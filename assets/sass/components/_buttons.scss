@@ -1,0 +1,14 @@
+.hero-section__button{
+    cursor: pointer;
+    background-color: $white;
+    border: solid $smoky-black 1px;
+    padding: 0.5rem 2rem;
+    font-weight: $bold;
+    &:hover{
+        border: solid $light-gray 1px;
+    }
+    &:focus{
+        border: solid $light-gray 1px;
+        color: $light-gray;
+    }
+}
