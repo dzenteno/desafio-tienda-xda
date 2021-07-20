@@ -1,5 +1,4 @@
 body {
-  width: 1280px;
   margin: 0 auto;
 }
 
@@ -68,13 +67,14 @@ p {
   padding: 10px 100px;
 }
 .hero-section__content h1 {
+  margin: 0.5rem 0;
   text-transform: uppercase;
 }
 
 .hero-section__newsletter {
   text-transform: capitalize;
   width: 60%;
-  height: 211px;
+  height: 254px;
   background-color: #0C0910;
   color: #FFF;
   padding: 10px 100px;
@@ -86,6 +86,49 @@ p {
   font-weight: 400;
 }
 
+@media screen and (max-width: 600px) {
+  .hero-section__container {
+    width: 100%;
+    float: none !important;
+    position: relative;
+    top: 342px;
+  }
+  .hero-section__container .hero-section__content {
+    padding: 10px 40px;
+  }
+
+  .hero-section__img {
+    position: absolute;
+    float: none !important;
+    height: 341px;
+    width: 100%;
+  }
+
+  .hero-section__newsletter {
+    padding: 10px 40px;
+  }
+  .hero-section__newsletter input {
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-section__container {
+    width: 100%;
+    float: none !important;
+    position: relative;
+    top: 342px;
+  }
+  .hero-section__container .hero-section__content {
+    padding: 10px 40px;
+  }
+
+  .hero-section__img {
+    position: absolute;
+    float: none !important;
+    height: 341px;
+    width: 100%;
+  }
+}
 .navigation {
   top: 0;
 }
@@ -150,6 +193,7 @@ p {
   cursor: pointer;
   background-color: #FFF;
   border: solid #0C0910 1px;
+  margin: 0.5rem 0;
   padding: 0.5rem 2rem;
   font-weight: 700;
 }
